@@ -1,0 +1,18 @@
+body {
+	overflow	: hidden;
+	padding		: 0;
+	margin		: 0;
+	color		: #222;
+	font-family	: arial;
+	font-size	: 100%;
+	text-align:center;
+}
+
+#container { margin: 0 auto; }
+#jwPlayerContainer { margin: 0 auto; }
+
+#jwPlayerContainer #cameras { margin-top: 10px; text-align:left; display:block; }
+.cameraLink { cursor:pointer; vertical-align:top; border-radius: 2px; border: 1px solid #b9b9b9; width:25px; color: #717171; font-weight:bold; font-size:12px; line-height:25px; text-align:center; display:inline-block; box-shadow: 1px 1px 3px 0px rgba(0,0,0,.1); }
+.select_camera { height: 25px; overflow:hidden; display:inline-block; margin-right:5px; }
+#instructions { display:none; }
+#model_loader { display:none; }

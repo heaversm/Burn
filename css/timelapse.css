@@ -1,0 +1,26 @@
+body {
+	overflow	: hidden;
+	padding		: 0;
+	margin		: 0;
+	color		: #222;
+	font-family	: arial;
+	font-size	: 100%;
+}
+
+.frameGradient {
+	background: #aaaaaa; /* Old browsers */
+	background: -moz-linear-gradient(top, #aaaaaa 0%, #e3e3e4 38%, #ededed 73%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#aaaaaa), color-stop(38%,#e3e3e4), color-stop(73%,#ededed)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #aaaaaa 0%,#e3e3e4 38%,#ededed 73%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #aaaaaa 0%,#e3e3e4 38%,#ededed 73%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #aaaaaa 0%,#e3e3e4 38%,#ededed 73%); /* IE10+ */
+	background: linear-gradient(top, #aaaaaa 0%,#e3e3e4 38%,#ededed 73%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaaaaa', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+}
+
+#jwPlayerContainer { top: 20px; position:absolute; z-index: 2; left: 50%; overflow:hidden; height:0; box-shadow: 3px 3px 5px 0px rgba(0,0,0,.3); }
+#instructions { display:block !important; pointer-events:none; position:absolute; top:50%; left: 50%; margin-left: -205px; margin-top: -150px; z-index:999; }
+#model_loader { opacity: 0; pointer-events:none; position:absolute; top:50%; left:50%; margin-left: -75px; margin-top: -70px; z-index: 998; }
+#cameras { margin-top: 10px; text-align:left; display:block; }
+.cameraLink { cursor:pointer; vertical-align:top; border-radius: 2px; border: 1px solid #b9b9b9; width:25px; color: #717171; font-weight:bold; font-size:12px; line-height:25px; text-align:center; display:inline-block; box-shadow: 1px 1px 3px 0px rgba(0,0,0,.1); }
+.select_camera { height: 25px; overflow:hidden; display:inline-block; margin-right:5px; }

@@ -1,0 +1,24 @@
+newmtl quarry1
+Ka 0.100000 0.100000 0.100000
+Kd 0.700000 0.700000 0.700000
+Ks 1.000000 1.000000 1.000000
+Ns 20.000000
+Tr 0.000000
+illum 0
+map_Kd /Users/staff/Websource/Python/scripts/obj_to_js/RenderMapQuarry_wall_01.jpg
+newmtl stage1
+Ka 0.100000 0.100000 0.100000
+Kd 0.700000 0.700000 0.700000
+Ks 1.000000 1.000000 1.000000
+Ns 20.000000
+Tr 0.000000
+illum 0
+map_Kd /Users/staff/Websource/Python/scripts/obj_to_js/FixedMap-stage_01.jpg
+newmtl trucks
+Ka 0.100000 0.100000 0.100000
+Kd 0.700000 0.700000 0.700000
+Ks 1.000000 1.000000 1.000000
+Ns 20.000000
+Tr 0.000000
+illum 0
+map_Kd /Users/staff/Websource/Python/scripts/obj_to_js/FixedMap-trucks_01.jpg
